@@ -8,11 +8,11 @@ import os
 # ==========================
 # ENV (RAILWAY SAFE)
 # ==========================
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-PHONE_NUMBER = os.getenv("PHONE_NUMBER")
+api_id = int(os.getenv("API_ID"))
+api_hash = os.getenv("API_HASH")
+phone_number = os.getenv("PHONE_NUMBER")
 
-client = TelegramClient("session_name", API_ID, API_HASH)
+client = TelegramClient("session_name", api_id, api_hash)
 
 # ==========================
 # GROUPS
